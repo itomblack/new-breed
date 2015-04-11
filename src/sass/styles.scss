@@ -38,6 +38,10 @@ input {
   text-transform: uppercase;
 }
 
+.home-screen {
+	overflow: hidden;
+}
+
 .bg-lmain {
 	background-color: $lmain;
 }
@@ -108,7 +112,7 @@ input {
 	display: block;
   margin: auto;
   width: 100px;
-  margin-top: 25%;
+  margin-top: 16%;
   margin-bottom: 40px;
 }
 
@@ -246,11 +250,15 @@ input {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	height: 100%;
+	height: 0;
 	background-color: $main;
 	opacity: 0;
 
 	transition: all $long;
+}
+
+.display{
+	height: 100%;
 }
 
 .opacity-1 {
@@ -264,9 +272,17 @@ input {
 
 .data-footer{
 	position: absolute;
+	width: 100%;
 	bottom: 0;
 	height: 50px;
-	background-color: $green;
+	background-color: $main;
+	color: $green;
+	padding: 10px 50px;
+
+	p {
+		font-size: 11px;
+		text-transform: uppercase;
+	}
 
 	p:first-child {
 		float: left;
