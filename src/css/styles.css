@@ -264,7 +264,7 @@ input {
     transition: all 0.3s; }
   /* line 69, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
   .login-btn:hover {
-    background: #428F88; }
+    background: #428FB8; }
     /* line 72, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
     .login-btn:hover::after {
       margin-left: 50px; }
@@ -315,7 +315,6 @@ input {
 .data-all {
   width: 100%;
   height: 95%;
-  float: left;
   overflow: scroll; }
   /* line 132, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
   .data-all p {
@@ -375,3 +374,81 @@ input {
 .no-scroll {
   height: 100%;
   overflow: hidden; }
+
+/* line 194, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
+.data-confirm {
+  position: absolute;
+  right: -500px;
+  top: 200px;
+  width: 25%;
+  height: 300px;
+  background-color: #00001E;
+  opacity: 0.9;
+  text-align: center;
+  padding-top: 100px;
+  -webkit-transition: all 0.85s;
+  transition: all 0.85s; }
+  /* line 207, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
+  .data-confirm p {
+    width: 100%;
+    color: #428FB8;
+    font-size: 18px;
+    margin-bottom: 50px; }
+
+/* line 216, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
+.data-confirm-1, .data-confirm-2 {
+  width: 45%;
+  height: 50px;
+  background-color: #4252B8;
+  text-align: center;
+  float: left;
+  padding-top: 16px;
+  text-transform: none;
+  text-decoration: none;
+  color: #00001E;
+  -webkit-transition: all 0.85s;
+  transition: all 0.85s; }
+  /* line 229, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
+  .data-confirm-1:hover, .data-confirm-2:hover {
+    background-color: #00DEFE; }
+
+/* line 235, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
+.data-confirm-2 {
+  margin-left: 10%;
+  background-color: #428FB8; }
+
+/* line 241, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
+.confirm-move {
+  right: 37.5%; }
+
+/* line 245, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
+.black-fade {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00001E;
+  opacity: 0;
+  -webkit-transition: all 0.85s;
+  transition: all 0.85s; }
+
+/* line 256, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
+.opacity-1 {
+  opacity: 1; }
+
+/* line 260, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
+.opacity-0 {
+  opacity: 0; }
+
+/* line 265, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
+.data-footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  background-color: #428FB8; }
+  /* line 271, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
+  .data-footer p:first-child {
+    float: left; }
+  /* line 275, /Users/BIT/Documents/Design/Repos/new-breed/src/sass/styles.scss */
+  .data-footer p:last-child {
+    float: right; }

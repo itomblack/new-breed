@@ -126,7 +126,7 @@ input {
 .data-all {
 	width: 100%;
 	height: 95%;
-	float: left;
+	// float: left;
 	overflow: scroll;
 
 	p {
@@ -191,5 +191,88 @@ input {
 	overflow: hidden;
 }
 
+.data-confirm {
+	position: absolute;
+	// right: 37.5%;
+	right: -500px;
+	top: 200px;
+	width: 25%;
+	height: 300px;
+	background-color: $main;
+	opacity: 0.9;
+	text-align: center;
+	padding-top: 100px;
+	transition: all $long;
 
+	p {
+		width: 100%;
+		color: $green;
+		font-size: 18px;
+		margin-bottom: 50px;
+	}
 
+}
+
+.data-confirm-1, .data-confirm-2 {
+	width: 45%;
+	height: 50px;
+	background-color: $blue;
+	text-align: center;
+	float: left;
+	padding-top: 16px;
+	text-transform: none;
+	text-decoration: none;
+	color: $main;
+
+	transition: all $long;
+
+	&:hover {
+		// border-bottom: solid 2px #00DEFE;
+		background-color: #00DEFE;
+	}
+}
+
+.data-confirm-2{
+	margin-left: 10%;
+	background-color: $green;
+	
+}
+
+.confirm-move {
+	right: 37.5%;
+}
+
+.black-fade {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: $main;
+	opacity: 0;
+
+	transition: all $long;
+}
+
+.opacity-1 {
+	opacity: 1;
+}
+
+.opacity-0 {
+	opacity: 0;
+
+}
+
+.data-footer{
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	background-color: $green;
+
+	p:first-child {
+		float: left;
+	}
+
+	p:last-child {
+		float: right;
+	}
+}
